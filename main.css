@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: #849d64;
+    background-color: rgb(255,234,210) ;
     padding: 20px;
 }
 .container {
@@ -13,11 +13,11 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 950px;
+    gap: 700px;
     font-family: 'Roboto', sans-serif;
 }
 .container h1 {
-    color: rgb(255,234,210);
+    color: #849d64;
 }
 .container ul {
     list-style: none;
@@ -29,9 +29,46 @@ header {
 }
 .container a {
     text-decoration: none;
-    color: rgb(255,234,210);
+    color: #849d64;
 }
 .container a:active {
     text-decoration: underline;
 }
-
+main {
+    background-color: rgb(132,140,110);
+    padding: 40px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1300px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(97,74,18);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+section .container {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.container div { 
+    margin-left: -650px;
+}
+#sinopsis img {
+    height: 500px;
+}
+.container h3 {
+    padding: 13px 0;
+    font-weight: 700;
+}
+.divisor-ruler {
+    margin-bottom: 30px;
+}
+#author img {
+    width: 750px;
+    height: 400px;
+}
