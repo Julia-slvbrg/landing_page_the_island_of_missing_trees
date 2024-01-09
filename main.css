@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: rgb(255,234,210) ;
     padding: 20px;
@@ -31,6 +30,9 @@ header {
     text-decoration: none;
     color: #849d64;
 }
+section .paragraph {
+    margin-top: 23px;
+}
 .container a:active {
     text-decoration: underline;
 }
@@ -40,7 +42,7 @@ main {
 }
 section {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-around;
     align-items: center;
     width: 1300px;
@@ -55,7 +57,7 @@ section .container {
     align-items: flex-start;
     justify-content: flex-start;
 }
-.container div { 
+.text { 
     margin-left: -650px;
 }
 #sinopsis img {
@@ -69,6 +71,55 @@ section .container {
     margin-bottom: 30px;
 }
 #author img {
-    width: 750px;
-    height: 400px;
+    width: 320px;
+    height: 350px;
+}
+#contact .container {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 400px;
+    /* height: 400px; */
+    /* width: 100px; */
+}
+#contact h2 {
+    margin-bottom: -660px;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    /* margin-bottom: 0px; */
+    padding: 8px;
+    border: none;
+    color: rgb(132,140,110);
+    border-radius: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color: rgb(255,234,210);
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(134, 100, 10);
+    color: rgb(255,234,210);
+}
+form button:active {
+    text-decoration: underline;
+}
+input:focus, textarea:focus {
+    outline-color: rgb(132,140,110);
 }
