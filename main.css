@@ -59,7 +59,7 @@ section .container {
 .text { 
     margin-left: -650px;
 }
-#sinopsis img {
+#synopsis img {
     height: 500px;
 }
 .container h3 {
@@ -73,11 +73,17 @@ section .container {
     width: 320px;
     height: 350px;
 }
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
 #contact .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 80px 0 0 90px;
+    margin-top: 80px;
 }
 #contact h2 {
     margin-bottom: -660px;
